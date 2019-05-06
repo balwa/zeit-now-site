@@ -1,6 +1,5 @@
 {
   "builds": [
-    { "src": "*.go", "use": "@now/go" },
-    { "src": "date.js", "use": "@now/node" }
+    { "src": "main.go", "use": "@now/go" }
   ]
 }
